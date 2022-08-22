@@ -22,6 +22,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+//bunch of shit here from the docs, too many to look at, all plain text hard to find anything useful
+
 // 2.3 XML namespace
 const xmlNamespace = {
   name: "http://www.xbrl.org/2008/inlineXBRL",
